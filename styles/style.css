@@ -21,6 +21,9 @@ main{
     display: inline-block;
     
 }
+li{
+    list-style-type: none;
+}
 .header_links {
     display: flex;
     justify-content: center;
@@ -55,4 +58,126 @@ a{
     width: 130px;
     height: 40px;
 }
+.projects_heading{
+    display: flex;
+    justify-content: center;
+}
+
+.featured_projects_container{
+    display: flex;
+    gap: 20px;
+    
+}
+.featured_project{
+    display: flex;
+    flex-direction: column;
+    background-color:  #F6F6F6;
+    border-radius: 30px;
+
+    
+}
+
+.portfolio_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     justify-content: center;
+     align-items: center;
+}
+.portfolio_button_container{
+    display: flex;
+    gap: 5px 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: max-content;
+    padding: 10px 20px;
+
+}
+.portfolio_button_container .active{
+    color: white;
+    background-color: #6C63FF;
+    border-radius: 40px;
+    padding: 10px 20px;
+
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+}
+.grid_card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+}
+
+.services_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex;
+}
+.services_card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.services_card_img_container{
+    background-color:  #F6F6F6;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.services_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.familiar_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.familiar_tools_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.footer_section{
+    display: flex;
+     justify-content: space-between; 
+     color: white;
+     background-color:  #6C63FF;
+
+}
+.footer_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer_navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .footer_connect{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
 
